@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'XXXX/Classes/**/*'
   
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
   # s.resource_bundles = {
   #   'XXXX' => ['XXXX/Assets/*.png']
   # }
